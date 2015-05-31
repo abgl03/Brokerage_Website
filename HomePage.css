@@ -1,0 +1,323 @@
+body {
+background: #f7f7f7;
+}
+
+#header {
+width: 800px;
+height: 100px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+.logo {
+float: left;}
+
+h1 {
+position: relative;
+font-family: Lucida Sans Unicode;}
+
+.logout
+{
+    color: #ffffff;
+	background-color: #a1a1a1;
+    height: 28px;
+    text-decoration: none;
+    border-radius: 5px 5px 0px 0px;
+	width: 150px;
+    border: 0;
+	float: right;
+	margin-top: 72px;
+}
+
+.logout:hover {
+background-color: #d5d5d5;
+text-decoration: none;
+}
+
+#container {
+background: #d5d5d5;
+width: 800px;
+height: 650px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+border: 0;
+border-radius: 5px 0px 5px 5px;}
+
+#sidebar {
+background: #a1a1a1;
+width: 200px;
+height: 650px;
+border: 0;
+border-radius: 5px 0px 0px 5px;
+float: left;
+}
+
+#littlespace {
+height:10px;
+}
+
+.sb {
+width: 180px;
+height: 30px;
+}
+
+.sb p {
+font-family: Verdana;
+color:  #d5d5d5;
+font-size: 12px;
+}
+
+.sb a{
+display: block;
+width: 100%;
+height: 100%;
+text-decoration: none;
+padding-left: 20px;
+padding-top: 10px;
+color:  #d5d5d5;
+}
+
+
+.sb a :visited{
+color:  #d5d5d5;
+display: block;
+width: 100%;
+height: 100%;
+text-decoration: none;
+padding-left: 20px;
+padding-top: 10px;
+}
+
+.sb a:hover {
+display: block;
+width: 100%;
+height: 100%;
+text-decoration: none;
+background: #d5d5d5;
+padding-left: 20px;
+padding-top: 10px;
+color:  #a1a1a1;
+}
+
+#footer {
+width: 800px;
+height: 100px;
+display: block;
+margin-left: auto;
+margin-right: auto;}
+
+#footer p {
+font-family: Verdana;
+color:  #979797;
+font-size: 12px;
+}
+
+#footer a:link {
+color:  #96bf4f;
+text-decoration: none;
+}
+ 
+#footer a:visited {
+color:  #96bf4f;
+text-decoration: none;
+}
+ 
+#footer a:hover {
+color:  #b1e15d;
+text-decoration: none;
+}
+
+#content {
+width: 600px;
+height: 600px;
+display: inline-block;
+}
+
+#hometext {
+float: right;
+margin-right: 30px;
+margin-top: -50px;
+}
+
+#hometext p {
+text-align: right;
+color: white;
+font-family: Verdana;
+line-height: 10px;
+font-size: 12px;
+}
+
+input[type=text]
+{
+    color: #696969;
+    height: 22px;
+    padding-left: 10px;
+    text-decoration: none;
+    border-radius: 5px; 
+	width: 150px;
+    border: 0;
+	display: inline;
+}
+
+input[type=password]
+{
+    color: #696969;
+    height: 22px;
+    padding-left: 10px;
+    text-decoration: none;
+    border-radius: 5px; 
+	width: 150px;
+    border: 0;
+	display: inline;
+}
+
+.create
+{
+    color: #ffffff;
+	background-color: #696969;
+    height: 22px;
+    text-decoration: none;
+    border-radius: 5px;
+	width: 150px;
+    border: 0;
+}
+
+.create:hover
+{
+	background-color: #a1a1a1;
+}
+
+.search
+{
+    color: #ffffff;
+	background-color: #696969;
+    height: 22px;
+    text-decoration: none;
+    border-radius: 5px;
+	width: 80px;
+    border: 0;
+}
+
+.search:hover
+{
+	background-color: #a1a1a1;
+}
+
+#searchsection {
+width: 600px;
+height: 150px;
+padding: 30px;
+border-bottom: 1px solid #f7f7f7;
+}
+
+#searchsection p, b {
+font-family: Verdana;
+color:  #696969;
+font-size: 12px;
+line-height: 30px;
+}
+
+#personsection {
+width: 600px;
+height: 130px;
+padding: 30px;
+}
+
+#personsection p, b {
+font-family: Verdana;
+color:  #696969;
+font-size: 12px;
+line-height: 30px;
+display: inline; 
+}
+
+.saveorcancel {
+    color: #ffffff;
+	background-color: #a1a1a1;
+    height: 22px;
+    text-decoration: none;
+    border-radius: 5px;
+	width: 80px;
+    border: 0;
+}
+
+.saveorcancel:hover {
+	background-color: #bbbbbb;
+}
+
+#save:hover {
+	background-color: #b1e15d;
+}
+
+.error {
+color: red;
+font-family: Verdana;
+font-size: 10px;
+}
+
+.select {
+	width: 150px;
+    color: #696969;
+    height: 22px;
+    padding-left: 10px;
+    text-decoration: none;
+    border-radius: 5px; 
+	width: 150px;
+    border: 0;
+}
+
+.textarea {
+    color: #696969;
+    padding-left: 10px;
+    text-decoration: none;
+    border-radius: 5px; 
+	width: 150px;
+    border: 0;
+	font-family: Verdana;
+	font-size: 12px;
+}
+
+#inputid {
+font-family: Verdana;
+font-size: 12px;
+color: #696969;
+}
+
+#unfinishedsection {
+width: 600px;
+height: 150px;
+padding: 30px;
+}
+
+#unfinishedsection p, b {
+font-family: Verdana;
+color:  #696969;
+font-size: 12px;
+line-height: 30px;
+}
+
+#buttonspace {
+width: 300px;
+height: 20px;
+margin-left: 370px;
+}
+
+#brokersection {
+width: 600px;
+height: 160px;
+padding: 30px;
+}
+
+#brokersection p, b {
+font-family: Verdana;
+color:  #696969;
+font-size: 12px;
+line-height: 30px;
+display: inline; 
+}
+
+#broker {
+visibility: hidden;
+}
